@@ -28,19 +28,19 @@ ul{
 }
 /* NAVIGATION*/
 .nav-main{
-	background: silver;
+	background: white;
 	font-size: 17px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
 	padding: 20px 0;
-	 border:1px  solid black;
+	
 
 }
 .nav-brand{
 	width: 274px;
-	 border:1px  solid black;
+	
 
 }
 /*NAV LEFT*/
@@ -123,7 +123,7 @@ ul{
  	
  }
  .showcase h1{
- 	color: #ff8c00;
+ 	color: #FF7322;
  }
  .showcase p{
  	margin: auto;
@@ -142,14 +142,14 @@ ul{
  }
  .news-cards img{
  	width: 100%;
- 	height: 260px;
- 	border: solid black 7px;
+ 	height: 270px;
+ 	border: solid black 3px;
  	border-radius: 50%;
  }
  .news-cards h3{
  	font-size: 20px;
  	margin: 10px 10px;
- 	color:#ff8c00;
+ 	color:#FF7322;
  }
  .news-cards p{
  	font-weight: bold;
@@ -197,17 +197,12 @@ ul{
  .links a{
  	margin: 3px 10px;
  	align-items: center;
+ 	color: white;
  }
  .links a i{
  	font-size: 3rem; 	
  	align-items: center;
  }
- #f{
- 	color: #0454F3;
- }
-#w{
-	color:#1FFF00;
-}	
 
  /*FOOTER*/
  .footer{
