@@ -9,7 +9,7 @@ body{
 	background: white ;
 	color: black;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
 
 a{
@@ -26,7 +26,43 @@ ul{
 	margin: auto;
 
 }
+
 /* NAVIGATION*/
+.nav2{
+	background: silver;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 10px 10px;
+
+	
+
+}
+.nav2 ul{
+	display: flex;
+ 
+
+}
+.nav2 ul li{
+	padding: 10px;
+
+}
+.nav2 ul li a{
+	padding: 2px;
+	font-weight: bold;
+	color: white;
+
+	}
+.nav2 ul.nav3{
+	flex: 1;
+	margin-left: 1000px;
+}
+.nav2 ul li a:hover{
+	color: black	;
+	border-bottom: 2px solid white;
+}
 .nav-main{
 	background: white;
 	font-size: 17px;
@@ -154,7 +190,7 @@ ul{
  .news-cards p{
  	font-weight: bold;
  	margin: 10px 10px;
- 	font-size: 14px;
+ 	font-size: 17px;
  }
  .news-cards p b{
  color: red;
@@ -219,3 +255,17 @@ ul{
  .footer p{
  	padding: 3px;
  }
+.term ul{
+	display: flex;
+	text-transform: uppercase;
+}
+.term ul li{
+	padding: 2px;
+}
+.term ul li a{
+	 color: #FF0000;
+}
+.term ul li a:hover{
+	text-decoration: underline;
+	color: white;
+}
