@@ -142,7 +142,7 @@ ul{
  }
  .news-cards img{
  	width: 100%;
- 	height: 230px;
+ 	height: 260px;
  	border: solid black 7px;
  	border-radius: 50%;
  }
@@ -154,6 +154,10 @@ ul{
  .news-cards p{
  	font-weight: bold;
  	margin: 10px 10px;
+ 	font-size: 14px;
+ }
+ .news-cards p b{
+ color: red;
  }
  .news-cards a{
  	padding: 10px 0;
@@ -195,8 +199,8 @@ ul{
  	align-items: center;
  }
  .links a i{
- 	font-size: 4rem; 	
-
+ 	font-size: 3rem; 	
+ 	align-items: center;
  }
  #f{
  	color: #0454F3;
